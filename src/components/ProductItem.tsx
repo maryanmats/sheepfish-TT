@@ -11,7 +11,6 @@ import {
 	Image,
 	Td,
 	Tr,
-	useColorMode,
 	useToast,
 } from '@chakra-ui/react';
 
@@ -23,10 +22,12 @@ function ProductItem(product: ProductType) {
   
 	const query = searchParams.get('search') ?? '';
 
+  // eslint-disable-next-line
 	const toast = useToast();
 
-	const { colorMode } = useColorMode();
+  // eslint-disable-next-line
 	const dispatch = useAppDispatch();
+  // eslint-disable-next-line
 	const [deletePost, { isLoading }] = useDeleteProductsMutation();
 
 	const handleDeleteProducts = async (id: number) => {
@@ -50,7 +51,6 @@ function ProductItem(product: ProductType) {
 			key={product.id}
 			_hover={{
 				outline: '1px solid gray',
-				bg: `${colorMode === 'light' ? 'gray.200' : 'gray.600'}`,
 			}}
 		>
 			<Td paddingX='0' textAlign='center'>

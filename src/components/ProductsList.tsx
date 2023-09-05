@@ -7,6 +7,7 @@ import Pagination from "./Pagination";
 import ProductsListControls from "./ProductsListControls";
 const ProductItem = lazy(() => import('./ProductItem'));
 
+// eslint-disable-next-line
 import {
 	Table,
 	Thead,

@@ -12,7 +12,6 @@ function ProductsListControl({
 	field,
 	...otherProps
 }: ProductsListControlProps) {
-	const { colorMode } = useColorMode();
 	const dataSort = useContext(DataSortContext);
 	const [_searchParams, setSearchParams] = useSearchParams();
 
@@ -37,7 +36,6 @@ function ProductsListControl({
 			transition='background 0.3s'
 			onClick={handleSort}
 			_hover={{
-				bg: `${colorMode === 'light' ? 'gray.200' : 'gray.600'}`,
 				cursor: 'pointer',
 			}}
 		>

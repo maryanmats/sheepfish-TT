@@ -8,7 +8,6 @@ import {
 	Button,
 	Grid,
 	Heading,
-	useColorMode,
 	useDisclosure,
 } from '@chakra-ui/react';
 

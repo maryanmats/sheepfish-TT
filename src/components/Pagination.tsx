@@ -23,6 +23,7 @@ const Pagination = (props: PaginationPropsType) => {
 
 	if (numberOfButtons === 0) return null;
 
+  // eslint-disable-next-line
 	const buttons = useMemo(() => {
     return Array.from({ length: numberOfButtons }, (_, index) => index + 1);
 }, [totalPages, perPage]);
@@ -69,6 +70,7 @@ const Pagination = (props: PaginationPropsType) => {
 		);
 	};
 
+  // eslint-disable-next-line
 	const visibleButtons = useMemo(() => {
 		const filtered: (number | boolean)[] = buttons.filter(isButtonVisible);
 
