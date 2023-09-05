@@ -7,7 +7,7 @@ const ProductDetails = lazy(() => import('../components/ProductDetails'));
 
 const router = createBrowserRouter([
 	{
-		path: '/',
+		path: 'sheepfish-TT',
 		element: <App />,
 		errorElement: <ErrorPage />,
 		children: [
