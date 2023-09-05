@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sheepfishTT/static/css/main.4590967d.css",
+    "main.js": "/sheepfishTT/static/js/main.34a0e490.js",
+    "static/js/352.f90c16d2.chunk.js": "/sheepfishTT/static/js/352.f90c16d2.chunk.js",
+    "static/js/200.d3d343d6.chunk.js": "/sheepfishTT/static/js/200.d3d343d6.chunk.js",
+    "static/js/680.33eb5a14.chunk.js": "/sheepfishTT/static/js/680.33eb5a14.chunk.js",
+    "static/js/152.211f8968.chunk.js": "/sheepfishTT/static/js/152.211f8968.chunk.js",
+    "index.html": "/sheepfishTT/index.html",
+    "main.4590967d.css.map": "/sheepfishTT/static/css/main.4590967d.css.map",
+    "main.34a0e490.js.map": "/sheepfishTT/static/js/main.34a0e490.js.map",
+    "352.f90c16d2.chunk.js.map": "/sheepfishTT/static/js/352.f90c16d2.chunk.js.map",
+    "200.d3d343d6.chunk.js.map": "/sheepfishTT/static/js/200.d3d343d6.chunk.js.map",
+    "680.33eb5a14.chunk.js.map": "/sheepfishTT/static/js/680.33eb5a14.chunk.js.map",
+    "152.211f8968.chunk.js.map": "/sheepfishTT/static/js/152.211f8968.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4590967d.css",
+    "static/js/main.34a0e490.js"
+  ]
+}
